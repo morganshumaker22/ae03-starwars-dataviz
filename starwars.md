@@ -30,7 +30,7 @@ glimpse(starwars)
 ``` r
 ggplot(starwars, 
        aes(x = height, y = mass, color = gender, size = birth_year)) +
-  geom_point(color = "#30509C")
+  geom_point(color = "pink")
 ```
 
     ## Warning: Removed 51 rows containing missing values (geom_point).
