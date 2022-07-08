@@ -1,6 +1,6 @@
 ---
 title: "Visualizing Starwars characters"
-author: "Add your name"
+author: "Morgan Shumaker"
 output: github_document
 ---
 
