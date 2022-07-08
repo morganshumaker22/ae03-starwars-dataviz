@@ -42,12 +42,12 @@ ggplot(starwars,
 ``` r
 ggplot(starwars, 
        aes(x = height, y = mass, color = gender, size = birth_year)) +
-  geom_point(color = "#30509C") +
+  geom_point(color = "pink") +
   labs(
-    #title = "___",
-    #x = "___", 
-    #y = "___",
-    #___
+    title = "Height and Weight of Star Wars Characters",
+    x = "Height", 
+    y = "Weight",
+    size = "Birth Year"
     )
 ```
 
